@@ -1,4 +1,7 @@
 //numero minimo de ultrapassagens para ir da grade inicial para a final
+//5
+//1 2 3 4 5 inicio
+//3 1 2 5 4 fim
 #include <stdio.h>
 
 int main(){

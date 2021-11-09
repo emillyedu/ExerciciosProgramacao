@@ -1,3 +1,5 @@
+//leia um número e imprima o número de Fibonacci correspondente a este número lido.
+//4         fib(4) = 3      0 1 1 2 (3)
 #include<stdio.h>
 
 long long int fib(long long int n){

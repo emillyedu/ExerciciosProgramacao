@@ -6,6 +6,7 @@ int main(){
     int numero, maximo;
 
     //QUESTAO 1
+    //definir array de 10 elem
 
     /*for ( i = 0; i < QUANT_NUMEROS; i++){
         numeros[i] = (i + 1) * 10;
@@ -14,27 +15,33 @@ int main(){
     // mais os codigos relacionados as ordens, o numero da posicao 5, impares e a soma dos numeros apresentados abaixo;
 
     //QUESTAO 2
+    //solicitar 10 elem
+
     for ( i = 0; i < QUANT_NUMEROS; i++){
         printf("insira o numero %d: ", i+1);
         scanf("%d", &numeros[i]);
     }
 
+    //aprensentar array em forma crescente dos indices
     printf("\ncrescente\n");
     for ( i = 0; i < QUANT_NUMEROS; i++){
         printf("numeros[%d] = %d\n", i+1, numeros[i]);
     }
-
+    //aprensentar array em forma decrescente dos indices
     printf("\ndecrescente\n");
     for ( i = 0; i < QUANT_NUMEROS; i++){
         printf("numeros[%d] = %d\n", 10 - i, numeros[9 - i]);
     }
-
+    //elemento armazenado na quinta posição do array;
     printf("\nnumero da posicao 5: %d\n\n", numeros[4]);
 
+    //elementos armazenados em índices ímpares;
     printf("numeros com indices impares\n");
     for ( i = 0; i < QUANT_NUMEROS; i++){
+        //soma de todos os valores armazenados no array.
         soma = soma + numeros[i];
         if (i % 2 !=0){
+            //elementos armazenados em índices ímpares;
             printf("numeros[%d] = %d\n", i, numeros[i]);
         }
     }

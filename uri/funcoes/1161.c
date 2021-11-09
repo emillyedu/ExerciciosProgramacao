@@ -1,3 +1,4 @@
+//calcular a soma dos fatoriais de dois numeros
 #include <stdio.h>
 unsigned long long FatorialM(int m){
     unsigned long long fatM;

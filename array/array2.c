@@ -29,7 +29,7 @@ void Impares(int array[], int indice){
         }
     }
 }
-
+//a soma de todos os valores armazenados no array.
 int Soma(int array[], int indice){
     int i, soma=0;
 
@@ -45,7 +45,8 @@ double MediaArray(int array[], int indice){
     media = Soma(array, indice)/10.0;
     return media;
 }
-
+//retorna verdadeiro caso um elemento esteja presente no array.
+//procurar esse elemento escolhido na array
 int EmArray(int array[], int indice, int elemento){
     int i;
 
@@ -56,7 +57,7 @@ int EmArray(int array[], int indice, int elemento){
     }
     return 0;
 }
-
+//maximo valor da array eh
 int MaximoValorArray(int array[], int indice){
     int i, maximo=0;
 
@@ -68,10 +69,12 @@ int MaximoValorArray(int array[], int indice){
     }
     return maximo;
 }
+//retorna verdadeiro caso os elementos estejam ordenados e falso caso contrário.
 int EhArrayOrdenada(int array[], int indice){
     int i, ordem=0;
-
+    //comparação até o penultimo, já que nao tem com quem o ultimo comparar
     for (i = 0; i < indice - 1; i++){
+        //compara o presente com o proximo
         if(array[i] > array[i+1]){
             return 0;
         }

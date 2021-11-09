@@ -43,6 +43,7 @@ int SomaAteN(int n){
 *               -1 (menos 1):   quando o parametro n nao for um natural.
 *               valor natural:  valor de n! quando n for natural.
 ****/
+//10! = 10*9*8*7....1
 int Fatorial(int n){
     int i, fat;
 
@@ -90,6 +91,8 @@ int EhDivisivel(int a, int b){
     else{
         return 0;
     }    
+    //OU
+    //return a % b == 0
 }
 int main(void) {
     int n, soma, i;

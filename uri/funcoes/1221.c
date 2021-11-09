@@ -1,3 +1,4 @@
+//primo ou nao primo
 #include <stdio.h>
 #include <math.h>
 
