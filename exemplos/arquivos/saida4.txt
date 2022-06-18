@@ -1,0 +1,8 @@
+Nome: bruna
+Media: 8.7
+Nome: carlos pedro
+Media: 9.1
+Nome: joao maria
+Media: 8.5
+Nome: maria joao
+Media: 9.1
