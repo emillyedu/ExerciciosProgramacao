@@ -10,6 +10,7 @@ int main() {
     for(x=0;x<t;x++){
         scanf("%s",s);
         for(u=0;u<strlen(s)-1;u++){
+            //letras minúsculas convertidos em letras maiúsculas.
             toupper(s[u]);
         }
         if(strlen(s)==3){

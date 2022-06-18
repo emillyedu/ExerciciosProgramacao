@@ -11,6 +11,7 @@ int main(){
                 dc[y]=d[z];
             }
             dc[y]='\0';
+            //compara cadeias terminadas em nulo
             if(strncmp(s,dc,strlen(s))==0){
                 r=1;
                 break;

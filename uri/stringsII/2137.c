@@ -3,6 +3,7 @@
 #include <math.h>
 #include <string.h>
 
+//maior para o menor - numero
 void Organiza(int *vetor, int n){
 	int i, j, aux, menor;
 	
